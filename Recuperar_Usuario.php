@@ -21,6 +21,6 @@ include "mcript.php";
             die("Query failed");
         }
 
-        header("Location: Sesion.php");
+        header("Location: index.php");
     }
 ?>

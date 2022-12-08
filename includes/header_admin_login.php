@@ -36,7 +36,7 @@
               </a>
           </li>
           <li class="nav-item ps-lg-4 pe-lg-5 nav-link">
-            <a class="navbar-brand nav-link text-white" href="Sesion.php">
+            <a class="navbar-brand nav-link text-white" href="index.php">
               <img src="img/Regis.png" alt="" width="38" height="38" class="d-inline-block">
               <span class="nav-bar text-white" href="logout.php">Logout</span>
             </a>

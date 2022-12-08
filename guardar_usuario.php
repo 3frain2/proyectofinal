@@ -20,7 +20,7 @@ if(isset($_POST['guardar_usuario'])){
     if(!$resultado){
         die("Query failed");
     }
-    header("location: Sesion.php");
+    header("location: index.php");
 
         $_SESSION['mensaje']="Usuario guardado correctamente!";
         $_SESSION['mensaje_tipo']='success';
