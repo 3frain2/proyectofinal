@@ -1,0 +1,12 @@
+:root{
+
+    /*Colors*/
+    --clr-black:#000000;
+    --clr-green:  #9da56d;
+    --clr-red:#f23838;
+    --clr-gray:#858585;
+    --clr-white:#ffff;
+    --clr-black:rgb(0, 0, 0);
+    --clr-pink:#f78d8d;
+    --clr-text:#575757;
+}

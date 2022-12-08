@@ -1,0 +1,371 @@
+@import url("vars.css");
+
+#display-image{
+    width: 30rem;
+    height: 20rem;
+    border: 1px solid #adb5bd;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+.nav-bar {
+    width: 100%;
+    background-color: var(--clr-red);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: medium;
+    padding-bottom: .3rem;
+    padding-top: .7rem;
+}
+
+.align-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    color: #ffff;
+    position: relative;
+    list-style-type: none;
+    margin: 0.625rem;
+}
+
+.footer {
+    background-color: var(--clr-red);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: medium;
+}
+
+.red-space {
+    background-color: var(--clr-red);
+}
+
+.left-link {
+    color: #ffff;
+    position: relative;
+    list-style-type: none;
+    text-align: right;
+}
+
+/*COSAS DE CSS QUE YO AGREGUÉ (LAURA)*/
+.top-bg {
+    width: 100%;
+    background: url(../img/comida.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 6em;
+    margin-bottom: 3rem;
+}
+
+.top-title {
+    /*Titulo con fondo de comida*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 3.6rem;
+    padding-left: .7rem;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+.sub-title {
+    /*Subtítulos negros del inicio*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.red-sub-title {
+    /*Subtítulos rojos de las recetas*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--clr-red);
+}
+
+.xs-sub-title {
+    /*Subtítulo de las tarjetas*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+.xs-sub-title-white {
+    /*Subtítulo de las tarjetas pero blanco*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    align-self: center;
+    color: var(--clr-white);
+}
+
+.small-text {
+    /*texto para las tarjetas*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 0.9rem;
+    color: var(--clr-white);
+}
+
+.small-text-like {
+    /*Letra para el número de likes de ua receta en la tarjeta*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 0.9rem;
+    color: var(--clr-white);
+}
+
+.big-text-like {
+    /*Letra para el número de likes de ua receta en la receta, es más grande*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: var(--clr-text);
+    padding-left: 9rem;
+}
+
+.text {
+    /*Textp común para la página*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--clr-text);
+}
+
+.cards-wrapper {
+    /*Filas de tarjetas*/
+    display: flex;
+}
+
+.title-receta {
+    /*Título de la recetas*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1000;
+    font-size: 3rem;
+    color: var(--clr-black);
+}
+
+.card {
+    /*Tatjeta*/
+    margin: 1em;
+    width: calc(100%/2.2);
+}
+
+.table {
+    /*Tabla*/
+    border: 1px solid var(--clr-pink);
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.th,
+td {
+    /*columnas y filas tabla*/
+    border: 1px solid var(--clr-pink);
+    border-collapse: collapse;
+}
+
+li {
+    /*para poner la viñetas del LI en rojo*/
+    color: var(--clr-red);
+    /* Bullet Color */
+}
+
+li span {
+    /*para poner texto del LI negro*/
+    color: var(--clr-text);
+    /* Text Color */
+}
+
+.btn {
+    background-color: var(--clr-red);
+    border: var(--clr-red);
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*COSAS DE CSS QUE YO AGREGUÉ (Efrain)*/
+.title {
+    margin-bottom: 40px;
+}
+
+/*Caja del input*/
+.form-space {
+    background: transparent;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    margin-top: 60px;
+    height: 40px;
+    color: black;
+    font-style: italic;
+    top: -1.6em;
+    transition: ease .3s;
+    width: 100%;
+}
+
+/*Caja del input al hacer click*/
+.form-space:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+}
+
+/*Posicion de cada cuadro*/
+.input-space {
+    position: relative;
+    top: -30%;
+}
+
+/*Animacion de movimiento*/
+.input-space~span {
+    transition: all .7s ease;
+    position: relative;
+    top: -60%;
+}
+
+/*Posicion de Texto*/
+.input-space:focus~span {
+    top: -100px;
+}
+
+/*Animacion del Texto*/
+.input-space:before {
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 3;
+}
+
+/*Quitar evento del Texto*/
+.noclick {
+    pointer-events: none;
+}
+
+/*Espaciados de Bloque*/
+.register-space {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+/*Verificar si tiene texto*/
+.static-text:valid+.msg {
+    top: -100px !important;
+}
+
+.img-rounded {
+    border-radius: 0 4% 4% 0;
+}
+
+.red-text-register {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--clr-red);
+}
+
+/*COSAS DE CSS QUE YO AGREGUÉ (Fabricio)*/
+
+/* Sección agregar receta */
+
+.btn-image {
+    background-color: var(--clr-red);
+    border-radius: 0.9 rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 4rem;
+}
+
+.form-recipe {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    color: var(--clr-black);
+}
+
+.text-area {
+    text-align: left;
+    color: var(--clr-green);
+}
+
+.text-h3 {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+/* Sección lista clientes y recetas*/
+
+.bg-thead {
+    background-color: var(--clr-red);
+}
+
+.list-title {
+    font-weight: 600;
+}
+
+.text-rows {
+    font-size: 1rem;
+}
+
+@media only screen and (max-width:800px) {
+
+    #no-more-tables tbody,
+    #no-more-tables tr,
+    #no-more-tables td {
+        display: block;
+    }
+
+    #no-more-tables thead tr {
+
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .red-tr {
+        background-color: var(--clr-pink);
+        color: white;
+    }
+
+    #no-more-tables td {
+        position: relative;
+        padding-left: 50%;
+        border: none;
+        border-bottom: 1px solid #eee;
+    }
+
+    #no-more-tables td:before {
+        content: attr(data-title);
+        position: absolute;
+        left: 6px;
+        font-weight: bold;
+    }
+
+    #no-more-tables tr {
+        border-bottom: 1px solid var(--clr-black);
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    td {
+        font-size: 3vw;
+    }
+}
